@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'OSPDIN';
+    src: url('http://www.occupy.net/fonts/osp-din-webfont.eot');
+    src: url('http://www.occupy.net/fonts/osp-din-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://www.occupy.net/fonts/osp-din-webfont.woff') format('woff'),
+         url('http://www.occupy.net/fonts/osp-din-webfont.ttf') format('truetype'),
+         url('http://www.occupy.net/fonts/osp-din-webfont.svg#OSPDIN') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+a { color:#3FD8E1; text-decoration:none; }
+a:hover { color:#35B5B5; text-decoration: underline; }
+
+body {
+	background: url(../images/background_texture.jpg);
+	color:white;
+	font-family:OSPDIN;
+	letter-spacing: 1px;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 1.5;
+	margin:0;
+	padding:0;
+}
+
+.fluidGridImage{
+  max-width: 100%;
+	min-width: 350px;
+}
+
+/* absolutely positioned elements, inside a relatively positioned container are offset from the top left corner of the container. */
+
+#poster{
+	height: auto;
+	min-height: 316px;
+	position: relative;
+}
+
+#poster #graphic{
+/*	margin:0 auto;
+	display: block;
+*//*
+	position: absolute;
+	z-index: 1;*/
+}
+
+#calltoaction{
+	/* hide from screen but not screenreaders */
+	position: absolute;
+	left: -3000px;
+}
+
+#poster #content{
+	position: absolute;
+	top: 0;
+	z-index: 2;
+}
+
+h1,h2,h3,h4{
+	font-weight: normal;
+}
+
+h1{
+	margin-top: .25em;
+	font-size: 5em;
+}
+
+h2{
+	margin-top: .125em;
+	font-size: 4em;
+}
+
+h3{	
+	font-size: 3em;
+	margin-top: 1.5em;
+	line-height: 1.5em;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+h4{
+	font-weight: light;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	margin: 1em 0 .5em;
+	font-size: 1em;
+}
+
+#bodycopy{
+	max-width: 960px;
+}
+
+#footer{
+	margin-bottom: 3em;
+}
