@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE data PUBLIC "-//WINTERROOT//DTD Data//EN" "../../../lattice/lattice/lattice/data.dtd">
+<data>
+  <nodes>
+    <item objectTypeName="homepage">
+      <field name="title">HomePage</field>
+      <field name="slug">homepage</field>
+      <field name="headlineimage">application/export/staging02262012/mayday2012headline.png</field>
+      <field name="subtitleimage">application/export/staging02262012/subtitle.png</field>
+      <field name="headline">MAY DAY 2012</field>
+      <field name="subtitle">Occupy Wall Street Stands in Solidarity With the Calls for a Day Without the 99%</field>
+      <field name="calltoaction">Wherever You Are&lt;br /&gt;No Work&lt;br /&gt;No School&lt;br /&gt;No Housework&lt;br /&gt;No Shopping&lt;br /&gt;Take to the Streets!</field>
+      <field name="file">application/export/staging02262012/PosterGraphic.jpg</field>
+      <field name="planningCommitteeHeadline">May Day Planning Committee:</field>
+      <field name="planningComitteeBodyCopy title">We are a subgroup of the OWS Direct Action Working Group focusing on actions and organization building toward a mass action on May 1st, 2012. We meet on Wednesdays at 6:30pm and Saturdays at 1:00pm at 60 Wall Street [&lt;a href="http://maps.google.com/help/maps/getmaps/plot-one.html" target="blank"&gt;MAP&lt;/a&gt;]</field>
+      <field name="organizingStructureHeadline">Organizing Structure:</field>
+      <field name="organizingStructureBodyCopy title">The structure adopted by the May Day subgroup of Direct Action consists of two parallel cluster groups. It allows folks to focus on inreach/outreach (taking names) and specialized, tactical-oriented work (kicking ass) simultaneously. The intended goals behind this structure is to ensure that (1) the large deal of outreach necessary would be achieved through coordinated, strategic efforts, (2) organizers may focus on specific work but still remain connected with all other areas of work, (3) those brought in through outreach have tangible work to get involved in, and (4) the networks we build, resources we accumulate, and process we use is documented and utilized long after May 1, 2012.</field>
+      <field name="resourcesheadline">Resources</field>
+      <field name="published">1</field>
+      <item objectTypeName="resources">
+        <field name="title">Resource Links</field>
+        <field name="slug">resource-links</field>
+        <field name="published">1</field>
+        <item objectTypeName="resourceLink">
+          <field name="title">http://projects.occupy.net/projects/MayDay</field>
+          <field name="slug">slug0357613001330277289</field>
+          <field name="linklabel">Project Management</field>
+          <field name="linkurl">http://projects.occupy.net/projects/MayDay</field>
+          <field name="published">1</field>
+        </item>
+        <item objectTypeName="resourceLink">
+          <field name="title"></field>
+          <field name="slug">slug0826975001330277445</field>
+          <field name="linklabel">http://wiki.occupy.net/wiki/May_Day</field>
+          <field name="linkurl">Mayday on wiki.occupy.net</field>
+          <field name="published">1</field>
+        </item>
+        <item objectTypeName="resourceLink">
+          <field name="title"></field>
+          <field name="slug">slug0454588001330277517</field>
+          <field name="linklabel">OccupyMay1st.org Imagery</field>
+          <field name="linkurl">http://www.occupymay1st.org/resources/imagery/</field>
+          <field name="published">1</field>
+        </item>
+      </item>
+    </item>
+  </nodes>
+  <relationships>
+    <lattice name="publicSite"/>
+  </relationships>
+</data>
