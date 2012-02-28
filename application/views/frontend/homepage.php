@@ -11,7 +11,7 @@
 			<h1>
 				<?if(is_object($content['main']['headlineimage'])):?>
 				 <img id="headlineimage" class="fluidGridImage" src="<?=latticeurl::site($content['main']['headlineimage']->frontend->fullpath);?>" width="<?=$content['main']['headlineimage']->frontend->width;?>" alt="<?=$content['main']['headline'];?>" />
-				<?endif;?>	
+				<?endif;?>
 			</h1>
 
 			<h2>
@@ -28,14 +28,14 @@
 
 	<div class="footer" class="grid_12">
 
-		<div id="bodycopy" class="grid_8">
+		<div id="bodycopy" class="grid_7">
 			<h4 class="planningCommitteeHeadline"> <?=$content['main']['planningCommitteeHeadline'];?></h4>
 			<p class="planningComitteeBodyCopy title"> <?=$content['main']['planningComitteeBodyCopy title'];?></p>
 			<h4 class="organizingStructureHeadline"> <?=$content['main']['organizingStructureHeadline'];?></h4>
 			<p class="organizingStructureBodyCopy title"> <?=$content['main']['organizingStructureBodyCopy title'];?></p>
 		</div>
 
-		<div class="grid_4">
+		<div class="grid_4 push_1">
 			<h4 class="resourcesheadline"> <?=$content['main']['resourcesheadline'];?></h4>
 			<ul id="resources" >
 			<?foreach($content['main']['resources'] as $resourcesItem):?>
