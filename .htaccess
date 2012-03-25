@@ -13,7 +13,7 @@ RewriteEngine On
 
 
 RewriteRule ^application/media/* - [PT,L]
-
+RewriteRule ^application/resources/* - [PT,L]
 RewriteRule ^(crossdomain.xml|index.php|robots.txt|favicon.ico) - [PT,L]
 
 
