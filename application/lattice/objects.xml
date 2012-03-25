@@ -5,6 +5,10 @@
 
 	<objectTypes>
 
+		<objectType name="cmsRootNode" allowChildSort="true">
+	  		<addableObject objectTypeName="subPage"  addText="Add a SubPage"/>
+		</objectType>
+
 		<objectType name="homepage" contentType="document" allowChildSort="true" allowDelete="false" allowTogglePublish="false">
 			<elements>				
         <image name="headlineimage" label="Headline Graphic">
@@ -41,11 +45,35 @@
 			</elements>
 		</objectType>
 
+		<objectType name="subPage" contentType="document" allowChildSort="true" allowDelete="true" allowTogglePublish="true">
+	    <elements>
+	      <text name="intro" label="Intro Paragraph"/>
+	      <text name="blurb" label="Content"/>
+				<list name="Images" label="Images">
+					<addableObject objectTypeName="pageImage" addText="Add an Image"/>
+				</list>
+				<list name="resources" label="Resource Links">
+					<addableObject objectTypeName="resourceLink" addText="Add a Link"/>
+				</list>
+	    </elements>
+		</objectType>
 
-		<objectType name="resourceLink" contentType="document" allowChildSort="true" allowDelete="false" allowTogglePublish="true">
+		<objectType name="resourceLink" contentType="document" allowChildSort="true" allowDelete="true" allowTogglePublish="true">
 	    <elements>
 	      <text name="linklabel" label="Link Label"/>
 	      <text name="linkurl" label="Link URL"/>
+	    </elements>
+		</objectType>
+
+		<objectType name="pageImage" contentType="document" allowChildSort="true" allowDelete="true" allowTogglePublish="true">
+	    <elements>
+		   <image name="image" label="Image">
+	        <resize name="big" width="540" height="360" forceDimension="height" />
+	        <resize name="medium" width="300" height="147" forceDimension="width" />
+	        <resize name="small" width="220" height="147" forceDimension="width" />
+	        <ext>jpg</ext>
+	        <ext>png</ext>
+	      </image>
 	    </elements>
 		</objectType>
 

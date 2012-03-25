@@ -25,6 +25,9 @@ body {
 	padding:0;
 }
 
+.container_12{ max-width: 960px; margin: 0 auto; }
+
+
 .fluidGridImage{
   max-width: 100%;
 	min-width: 350px;
