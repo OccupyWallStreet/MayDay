@@ -3,7 +3,7 @@
 	<div id="poster" class="grid_12">
 
 		<?if(is_object($content['main']['file'])):?>
-		 <img id="graphic" class="fluidGridImage" src="<?=latticeurl::site($content['main']['file']->frontend->fullpath);?>" width="<?=$content['main']['file']->frontend->width;?>" alt="<?=$content['main']['calltoaction'];?>" />
+		 <img id="graphic" class="fluidGridImage" src="<?=latticeurl::site($content['main']['file']->frontend->fullpath);?>" width="<?=$content['main']['file']->frontend->width;?>" alt="<?=strip_tags($content['main']['calltoaction']);?>" />
 		<?endif;?>
 
 		<div id="content">
@@ -26,13 +26,13 @@
 
 	</div>
 
-	<div class="footer" class="grid_12">
+	<div class="grid_12">
 
 		<div id="bodycopy" class="grid_7">
 			<h4 class="planningCommitteeHeadline"> <?=$content['main']['planningCommitteeHeadline'];?></h4>
-			<p class="planningComitteeBodyCopy title"> <?=$content['main']['planningComitteeBodyCopy title'];?></p>
+			<div class="planningComitteeBodyCopy title"> <?=$content['main']['planningComitteeBodyCopy title'];?></div>
 			<h4 class="organizingStructureHeadline"> <?=$content['main']['organizingStructureHeadline'];?></h4>
-			<p class="organizingStructureBodyCopy title"> <?=$content['main']['organizingStructureBodyCopy title'];?></p>
+			<div class="organizingStructureBodyCopy title"> <?=$content['main']['organizingStructureBodyCopy title'];?></div>
 		</div>
 
 		<div class="grid_4 push_1">
