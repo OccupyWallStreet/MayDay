@@ -16,7 +16,6 @@ RewriteRule ^application/media/* - [PT,L]
 RewriteRule ^application/resources/* - [PT,L]
 RewriteRule ^(crossdomain.xml|index.php|robots.txt|favicon.ico) - [PT,L]
 
-
 # Allow css and js to be displayed directly
 RewriteRule ^(.*)css$ - [PT,L]
 RewriteRule ^(.*)js$ - [PT,L]
@@ -27,6 +26,9 @@ RewriteRule ^(.*)swf$ - [PT,L]
 RewriteRule ^(.*)flv$ - [PT,L]
 RewriteRule ^(.*)f4v$ - [PT,L]
 RewriteRule ^(.*)pdf$ - [PT,L]
+
+# Allow deploy scripts to be called directly
+RewriteRule ^deploy/* - [PT,L]
 
 # Protect application and system files from being viewed
 RewriteRule ^(?:application|modules|system)\b.* index.php/$0 [L]
