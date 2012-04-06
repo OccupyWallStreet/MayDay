@@ -11,18 +11,6 @@
 
 		<objectType name="homepage" contentType="document" allowChildSort="true" allowDelete="false" allowTogglePublish="false">
 			<elements>				
-        <image name="headlineimage" label="Headline Graphic">
-          <resize name="frontend" width="960" height="150" forceDimension="width" /> 
-          <resize name="uithumb" width="960" height="150" forceDimension="width" /> 
-          <ext>jpg</ext>
-          <ext>png</ext>
-        </image>
-        <image name="subtitleimage" label="Subtitle Graphic">
-          <resize name="frontend" width="960" height="150" forceDimension="width" /> 
-          <resize name="uithumb" width="960" height="150" forceDimension="width" /> 
-          <ext>jpg</ext>
-          <ext>png</ext>
-        </image>
 				<text name="headline" label="Headline" isMultiline="false"/>
 				<text name="subtitle" label="Subtitle" isMultiline="false"/>
 				<text name="calltoaction" label="Call to Action" isMultiline="true"/>

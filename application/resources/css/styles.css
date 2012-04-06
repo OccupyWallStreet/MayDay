@@ -10,6 +10,11 @@
 
 }
 
+.away{
+	position: absolute;
+	left: -14000px;
+}
+
 #poster #content,
 #poster #content h1,
 .header{
@@ -30,15 +35,19 @@ h1{
 
 h2{
 	font-size: 27px;
+	line-height: 1;
 	text-transform: uppercase;
 }
 
 h3{
 	font-size: 24px;
+	line-height: 1;
 	text-transform: uppercase;
 }
 
-h4{	font-size: 21px;
+h4{
+	font-size: 21px;
+	line-height: 1;
 	text-transform: uppercase;	
 }
 
@@ -71,20 +80,20 @@ ul.nav li{
 }
 
 ul.nav li:first-child{
-	margin: 0 0 0 0;
+	margin: 0 0 0 1em;
 }
 
 ul.nav li a{
 	font-size: 32px;
 	text-transform: uppercase;
-	color: #FDD04F;
+	color: #fff;
 	display: inline-block;
 	padding: .125em .25em;
 		text-decoration: none;
 }
 
 ul.nav li a.active{
-	color: #fff;
+	color: #fc0;
 }
 
 .container_12{
@@ -188,6 +197,10 @@ h4{
 
 #sidebarImages li{
 	margin-bottom: 0.5em;
+}
+
+#bodycopy h3{
+	margin-top: .5em;
 }
 
 #bodycopy{

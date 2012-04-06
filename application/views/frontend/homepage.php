@@ -8,19 +8,11 @@
 
 		<div id="content">
 
-			<h1>
-				<?if(is_object($content['main']['headlineimage'])):?>
-				 <img id="headlineimage" class="fluidGridImage" src="<?=latticeurl::site($content['main']['headlineimage']->frontend->fullpath);?>" width="<?=$content['main']['headlineimage']->frontend->width;?>" alt="<?=$content['main']['headline'];?>" />
-				<?endif;?>
-			</h1>
-
-			<h2>
-				<?if(is_object($content['main']['subtitleimage'])):?>
-				 <img id="subtitleimage" class="fluidGridImage" src="<?=latticeurl::site($content['main']['subtitleimage']->frontend->fullpath);?>" width="<?=$content['main']['subtitleimage']->frontend->width;?>" alt="<?=$content['main']['subtitle'];?>" />
-				<?endif;?>
-			</h2>
-
-			<h3 id="calltoaction"> <?=$content['main']['calltoaction'];?></h3>
+			<!-- away class is for searchbots and screen reader users -->
+			<h1 class="away"><?=$content['main']['headline'];?>" /></h1>
+			<!-- away class is for searchbots and screen reader users -->
+			<h2 class="away"><?=$content['main']['subtitle'];?>" /></h2>
+			<h3 id="calltoaction" class="away"> <?=$content['main']['calltoaction'];?></h3>
 
 		</div>
 
