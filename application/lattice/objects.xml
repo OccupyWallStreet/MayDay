@@ -32,6 +32,13 @@
 				</list>
 			</elements>
 		</objectType>
+		
+		<objectType name="siteFooter" contentType="document" allowChildSort="false" allowDelete="false" allowTogglePublish="false">
+		    <elements>
+		      <text name="footerContent" label="Footer Content" isMultiline="true" />
+		    </elements>		
+		</objectType>
+
 
 		<objectType name="subPage" contentType="document" allowChildSort="true" allowDelete="true" allowTogglePublish="true">
 	    <elements>
@@ -45,6 +52,7 @@
 				</list>
 	    </elements>
 		</objectType>
+
 
 		<objectType name="resourceLink" contentType="document" allowChildSort="true" allowDelete="true" allowTogglePublish="true">
 	    <elements>
@@ -64,11 +72,7 @@
 	      </image>
 	    </elements>
 		</objectType>
-		<objectType name="footer" contentType="document" allowChildSort="false" allowDelete="false" allowTogglePublish="false">
-	    <elements>
-	      <text name="footerContent"/>
-	    </elements>		
-		</objectType>
+		
 
   </objectTypes>
 

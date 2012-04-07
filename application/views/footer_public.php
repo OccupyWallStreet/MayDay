@@ -1,3 +1,7 @@
+<div id="footer" class="container_12">
+	<div class="footerContent"><?=latticeview::factory('footer')->view();?></div>
+</div>
+
 <!-- Piwik -->
 <script type="text/javascript">
 var pkBaseURL = (("https:" == document.location.protocol) ?

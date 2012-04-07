@@ -10,6 +10,10 @@
 
 }
 
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+
 .away{
 	position: absolute;
 	left: -14000px;
@@ -66,6 +70,17 @@ body {
 	line-height: 1.5;
 	margin:0;
 	padding:0;
+}
+
+#footer h1{
+display: none
+}
+
+#footer{
+	padding: .75em 1em;
+	border-top: 1px #fff solid;
+	margin-top: 3em;
+	text-align: center;
 }
 
 .header ul.nav{

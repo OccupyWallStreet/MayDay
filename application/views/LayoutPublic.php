@@ -10,11 +10,13 @@
 	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css' />
 </head>
 <body>
-	<div id="container" class="container_12">
+	<div id="container" class="container_12 clearfix">
 	<?if( latticeview::initialObject()->objecttype->objecttypename == 'subPage' ):?>
-		<div class="header">
+		<div class="header clearfix">
+			<a href="homepage">
 			<img id="headlineimage" class="fluidGridImage" src="application/resources/images/frontend_mayday2012headline.png" width="960" alt="MAY DAY 2012">
 			<img id="subtitleimage" class="fluidGridImage" src="application/resources/images/frontend_subtitle.png" width="960" alt="Occupy Wall Street Stands in Solidarity With the Calls for a Day Without the 99%">
+			</a>
 		</div>
 		<?=Request::Factory('header/public')->execute()->body();?>
 	<?else:?>
