@@ -64,6 +64,11 @@
 	      </image>
 	    </elements>
 		</objectType>
+		<objectType name="footer" contentType="document" allowChildSort="false" allowDelete="false" allowTogglePublish="false">
+	    <elements>
+	      <text name="footerContent"/>
+	    </elements>		
+		</objectType>
 
   </objectTypes>
 

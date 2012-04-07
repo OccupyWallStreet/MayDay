@@ -1,0 +1,4 @@
+AuthName "Danger Zone"
+AuthType Basic
+AuthUserFile /var/www/apache.pass
+require valid-user

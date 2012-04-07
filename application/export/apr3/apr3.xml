@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE data PUBLIC "-//WINTERROOT//DTD Data//EN" "../../../lattice/lattice/lattice/data.dtd">
+<data>
+  <nodes>
+    <item objectTypeName="homepage">
+      <field name="title">May Day NYC</field>
+      <field name="slug">homepage</field>
+      <field name="headline">MAY DAY 2012</field>
+      <field name="subtitle">Occupy Wall Street Stands in Solidarity With the Calls for a Day Without the 99%</field>
+      <field name="calltoaction">Wherever You Are&lt;br /&gt;No Work&lt;br /&gt;No School&lt;br /&gt;No Housework&lt;br /&gt;No Shopping&lt;br /&gt;Take to the Streets!</field>
+      <field name="file">application/export/apr3/posterBg.jpg</field>
+      <field name="planningCommitteeHeadline"></field>
+      <field name="planningComitteeBodyCopy title">May Day is a holiday for the 99%. It is a day for people to come together, across all those lines which too often divide us — race, class, gender, religion — and challenge the systems that create these divisions. When we come together, we recognize the common struggles we face and the common interests we have. With this collective power we can begin to build the world we want to see. &lt;i&gt;Another world is possible!&lt;/i&gt;
+&lt;h3 align="center" style="margin-top: 0"&gt;On May 1, 2012&lt;/h3&gt; Millions of people throughout the world — workers, students, immigrants, professionals, houseworkers&amp;nbsp;— employed and unemployed alike — will take to the streets to unite in a General Strike against a system that does not work for us.&lt;br /&gt;&lt;br /&gt;Don't go to work.  Don't go to school.  Don't shop. Take the streets!</field>
+      <field name="organizingStructureHeadline"></field>
+      <field name="organizingStructureBodyCopy title"></field>
+      <field name="resourcesheadline">Resources</field>
+      <field name="published">1</field>
+      <item objectTypeName="resources">
+        <field name="title">Resource Links</field>
+        <field name="slug">resource-links</field>
+        <field name="published">1</field>
+        <item objectTypeName="resourceLink">
+          <field name="title">Call 2 Create:  May Day Arts</field>
+          <field name="slug">slug0036400001331358496</field>
+          <field name="linklabel">Call 2 Create:  May Day Arts</field>
+          <field name="linkurl">http://www.call2create.org</field>
+          <field name="published">1</field>
+        </item>
+        <item objectTypeName="resourceLink">
+          <field name="title">Propaganda</field>
+          <field name="slug">slug0292770001332031848</field>
+          <field name="linklabel">Propaganda</field>
+          <field name="linkurl">http://www.occupymay1st.org/resources/imagery/</field>
+          <field name="published">1</field>
+        </item>
+        <item objectTypeName="resourceLink">
+          <field name="title">Calendar</field>
+          <field name="slug">slug0210018001332633898</field>
+          <field name="linklabel">Calendar</field>
+          <field name="linkurl">http://live.ows-atrium.gotpantheon.com/mayday/calendar</field>
+          <field name="published">1</field>
+        </item>
+        <item objectTypeName="resourceLink">
+          <field name="title">Donate to support printing posters and fliers</field>
+          <field name="slug">slug0932287001332774103</field>
+          <field name="linklabel">Donate to support printing posters and fliers</field>
+          <field name="linkurl">http://occuprint.org/Info/Donations</field>
+          <field name="published">1</field>
+        </item>
+      </item>
+    </item>
+    <item objectTypeName="subPage">
+      <field name="title">History</field>
+      <field name="slug">history</field>
+      <field name="intro"></field>
+      <field name="blurb">May 1 has always marked the coming of Spring: a time of rebirth and new possibilities. For over a century, May Day has been known as International Workers Day, a day where the 99% — workers throughout the world — have united to fight their common exploitation by the 1%.&lt;br /&gt;&lt;br /&gt;&lt;h2 style="margin-top: 0"&gt;1886, Chicago&lt;/h2&gt;
+The origins of May Day lie in the revolutionary year of 1886: a wave of mass strikes surged across the heartland of America, focused on the fight for an 8-hour day. The American Federation of Labour had adopted a resolution stating "eight hours shall constitute a legal day's labour from and after May 1st, 1886". In Chicago, over 100,000 workers struck. There, during a demonstration on May 3rd, a crowd confronted strike-breakers leaving the nearby McCormick factory, chasing them back inside. Without warning, police opened fire on the crowd, killing four and seriously wounding many.&lt;br /&gt;&lt;br /&gt;The following day a rally was called at Haymarket Square to protest the police violence. The mayor was in attendance, and the crowd debated how to continue their strike. As the meeting was winding down, a group of 180 police stormed in and ordered everyone to disperse. A bomb was thrown towards the police line. Who threw it — whether protestor or provocateur — has never been determined. As the bomb exploded, chaos descended. One police officer was killed, many others were injured. The police opened fire on the crowd, killing dozens. A police dragnet swept the city. Eight revolutionary labor leaders were arrested, seven of whom had not even been present in Haymarket at the time. In the absence of any evidence linking them to the bomb, the "Chicago Eight" were tried solely on the basis of their political beliefs. All eight were sentenced to death.&lt;br /&gt;&lt;br /&gt;Several years later, in honor of their slain comrades, the Second International Congress declared May 1st International Workers Day. Ever since, people around the world have come together on May Day to remember the sacrifices of those who have struggled before us, to defend the gains they made, and to discuss the way forward.&lt;br /&gt;&lt;br /&gt;&lt;h4&gt;May Day Today&lt;/h4&gt;
+</field>
+      <field name="published">1</field>
+      <item objectTypeName="resources">
+        <field name="title">Resource Links</field>
+        <field name="slug">resource-links2</field>
+        <field name="published">1</field>
+        <item objectTypeName="resourceLink">
+          <field name="title">Occupy May Day, by Jeremy Brecher </field>
+          <field name="slug">slug0471840001333243592</field>
+          <field name="linklabel">Occupy May Day, by Jeremy Brecher </field>
+          <field name="linkurl">http://www.commondreams.org/view/2012/03/26-8</field>
+          <field name="published">1</field>
+        </item>
+      </item>
+      <item objectTypeName="Images">
+        <field name="title"></field>
+        <field name="slug">slug0109441001331324841</field>
+        <field name="published">1</field>
+      </item>
+    </item>
+    <item objectTypeName="subPage">
+      <field name="title">Why Strike?</field>
+      <field name="slug">why-strike</field>
+      <field name="intro">&lt;p align="center" style="font-size: 21px"&gt;&lt;a href="http://www.maydaynyc.org/you-could-use-a-day-off"&gt;Because you could use a holiday.&lt;/a&gt;&lt;/p&gt;
+&lt;br /&gt;&lt;p align="center" style="font-size: 21px"&gt;Because you work too hard for not enough money.&lt;/p&gt;
+&lt;br /&gt;&lt;p align="center" style="font-size: 21px"&gt;Because this just isn't working anymore.&lt;/p&gt;</field>
+      <field name="blurb">&lt;br /&gt;&lt;h3 style="margin-top: 0"&gt;Because our struggles are one.&lt;/h3&gt;
+We are all united: the system that declares unionized workers are bad for business is the same system that decides human beings are a commodity that can be "illegal".  It's also the same system that causes students to graduate college with so much debt that they must chain themselves to a career in something they despise, rather than pursue their passions.  It's the same system that measures the value of people by what they consume, and that measures the value of artists by how much they sell.  It's the same system that believes you can put a price on a sustainable planet.&lt;br /&gt;&lt;br /&gt;&lt;h3 style="margin-top: 0"&gt;It's a system of people.&lt;br /&gt;It's a system of &lt;i&gt;us.&lt;/i&gt;&lt;/h3&gt;
+This system exists because &lt;i&gt;we participate in it.&lt;/i&gt; So the first thing we need to do, to remove the power the system holds over us, is to change ourselves: to withdraw our participation.&lt;br /&gt;&lt;br /&gt;We can withdraw, for one day, and begin to enact a new world, together: one of a return to old values, to mutual aid, to community, to hope and aspiration and faith -- not in any leaders, but in each other, and ourselves.&lt;br /&gt;&lt;br /&gt;(Im)migrants, Students, Workers, The Unemployed, The Underemployed, Mothers, Fathers, Sons, Daughters, Sisters, Brothers, Neighbors, New Yorkers, Comrades, Friends: We are all suffering while the 1% prosper, and if we do not personally feel the strain, we surely have loved ones who do. Whether we are looking for work, facing decreasing hours, braving dangerous working conditions for a paycheck that barely provides the means to survive, returning day after day to the boring jobs that drain our souls and prevent us from seeing our loved ones, collecting debt like a hobby because education, housing, and the cost of life are impossible to afford: it has become clear that the systems of the 1% were not created to support us and are incapable of doing so. Yet these very systems rely on &lt;i&gt;our labor, our skills, and our compliance&lt;/i&gt; to function.&lt;br /&gt;&lt;br /&gt;&lt;i&gt;The 1% needs us&lt;/i&gt; to continue reaping their profits, but &lt;i&gt;WE DON'T NEED THE 1%.&lt;/i&gt;
+&lt;br /&gt;This May Day, Occupy Wall Street, in coalition with numerous other organizations and occupations, calls for a Day Without The 99%: No Work, No School, No Shopping, No Housework, No Compliance. Let's take the streets, reclaim our communities, and support each other. NOT the 1%.&lt;br /&gt;&lt;br /&gt;If you can't strike call in sick. If you can't call in sick hold a slow down. We know how to shut it down because we're the ones that prop it up. If we continue to stand by while the 1% descimates our economy and destabalizes our lives, we will be powerless to challenge the forces that oppress us.&lt;br /&gt;&lt;br /&gt;On May 1st, let us stand together to reclaim our jobs, our communities, our lives. Withdraw your consent and strike!&lt;br /&gt;&lt;br /&gt;&lt;em&gt;If you throw one stone, it's a punishable offense. If a thousand stones are thrown, it's political action&lt;/em&gt;
+&lt;br /&gt;&lt;script src="http://zoom.it/W9am.js?width=auto&amp;amp;height=400px"&gt;&lt;/script&gt;</field>
+      <field name="published">1</field>
+      <item objectTypeName="resources">
+        <field name="title">Resource Links</field>
+        <field name="slug">resource-links1</field>
+        <field name="published">1</field>
+        <item objectTypeName="resourceLink">
+          <field name="title"></field>
+          <field name="slug">slug0474571001332628994</field>
+          <field name="linklabel"></field>
+          <field name="linkurl"></field>
+          <field name="published">1</field>
+        </item>
+      </item>
+      <item objectTypeName="Images">
+        <field name="title"></field>
+        <field name="slug">slug0881774001331324757</field>
+        <field name="published">1</field>
+      </item>
+    </item>
+    <item objectTypeName="subPage">
+      <field name="title">May Day 2012</field>
+      <field name="slug">may-day-2012</field>
+      <field name="intro">We are still &lt;a href="/connect"&gt; planning and organizing&lt;/a&gt; for the events on May 1st - that means that &lt;em&gt;you&lt;/em&gt; are crucial to this process.</field>
+      <field name="blurb">&lt;h3 style="margin-top: 0.5em"&gt;What are you doing for May Day?&lt;/h3&gt;
+&lt;br /&gt;&lt;i&gt;On May 1st, 2012, we are creating a new kind of holiday.  One that is not only not commoditized, but is explicitly about imagining a world beyond commoditization.&lt;/i&gt;
+&lt;br /&gt;&lt;br /&gt;We ask you to do one of two things to commemorate this day:&lt;br /&gt;&lt;ul style="list-style-type: disc; list-style-position: inside"&gt;
+&lt;li&gt; • Don't like what you do? &lt;b&gt;&lt;u&gt;Don't do it.&lt;/u&gt;&lt;/b&gt; Take one day to something you love, instead.&lt;/li&gt;
+&lt;li&gt; • Love what you do? &lt;b&gt;&lt;u&gt;Do it for free.&lt;/u&gt;&lt;/b&gt; Take it to the next level, and bring it to the public.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br /&gt;&lt;br /&gt;This is what it means to strike, today.  Join us, as we imagine another way of living.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;h3 style="margin-top: 0.5em; list-style-position: inside"&gt;May Day Schedule&lt;/h3&gt;
+&lt;i&gt;Note, this schedule is tentative.  All times and locations are subject to (radical) change.&lt;/i&gt;
+&lt;br /&gt;&lt;h4&gt;8 a.m. to 4 p.m. — Bryant Park&lt;/h4&gt;
+ • Bryant Park will be the site of a fun and friendly "Pop-up Occupation", featuring:&lt;br /&gt;Free food, a free market, free services, skillshares, workshops, teach-ins, speak outs, public art, performances, discussions, and trainings.&lt;br /&gt; • This will be a staging area for actions in midtown all day: creative disruptions, bank blockades, outreach to commuters and tourists, and more!&lt;br /&gt;&lt;!-- Hit the 1% where they live and prevent them from getting to work. Let's make this a Day Without the 1%, as well! --&gt;
+&lt;h4&gt;4 p.m. — March to Union Square&lt;/h4&gt;
+Solidarity rally with labor unions, the immigrant justice coalition, students, and faith &amp;amp; community groups: an historic convergence of the 99%.&lt;br /&gt;&lt;h4&gt;5:30 p.m. — Solidarity march from Union Square to Wall Street&lt;/h4&gt;
+&lt;h4&gt;7 p.m. — March to staging area for evening actions&lt;/h4&gt;
+&lt;br /&gt;&lt;h3 style="margin-top: 0.5em"&gt;May Day Happenings&lt;/h3&gt;
+&lt;p&gt;Alongside these convergences, many actions will transform society, for just one day:&lt;/p&gt;
+&lt;dl&gt;
+&lt;dd&gt; • &lt;i&gt;We're going to give freedom, literally&lt;/i&gt;: there's a project to bail out thousands of poor, nonviolent offenders from jail, people who are stuck there because they can't make the $50 or $100 bail.  We're going to do our best to take away the price of living.  &lt;a href="http://bailoutny.org/"&gt;http://bailoutny.org/&lt;/a&gt; &lt;/dd&gt;
+&lt;dd&gt; • &lt;i&gt;Arts and performances will permeate the city&lt;/i&gt;: A living, walking exhibition. A massive choir performance, with hundreds of people singing to draw others out.  Dance brigades.  Projections on buildings.  Teams of clowns.  Radical faeries.  Acrobats. Live painting. Musicians of every kind.  A beautiful explosion of art will light the way for people trying to reinvent themselves. &lt;a href="http://call2create.org/"&gt;http://call2create.org/&lt;/a&gt; &lt;/dd&gt;
+&lt;dd&gt; • Foreclosed homes will be defended, and empty homes will be reoccupied. &lt;/dd&gt;
+&lt;dd&gt; • Workplaces will begin to be run by workers. &lt;/dd&gt;
+&lt;dd&gt; • ... and many, many, more. &lt;/dd&gt;
+&lt;/dl&gt;
+&lt;br /&gt;&lt;h3&gt;What are others doing for MayDay?&lt;/h3&gt;
+&lt;br /&gt;&lt;h4&gt;These are just some of the many local organizations are supporting the Day Without the 99%:&lt;/h4&gt;
+May 1st Coalition-NYC&lt;br /&gt;Industrial Union Council-NJ&lt;br /&gt;International Workers of the World&lt;br /&gt;1199SEIU&lt;br /&gt;AFSCME DC73&lt;br /&gt;AFSCME Local 372 DC 37&lt;br /&gt;AFSCME Local 375 DC 37&lt;br /&gt;CWA Local 1180&lt;br /&gt;Greater NY Labor-Religion Coalition&lt;br /&gt;La Fuente&lt;br /&gt;Left Labor Project&lt;br /&gt;New York City LCLAA&lt;br /&gt;New York City Taxi Workers Alliance&lt;br /&gt;NY Civic Participation Project&lt;br /&gt;PSC/CUNY - AFT&lt;br /&gt;SEIU 32BJ&lt;br /&gt;UAW Region 9A&lt;br /&gt;United NY&lt;br /&gt;Workers United, SEIU&lt;br /&gt;&lt;br /&gt;&lt;h4&gt;These General Assemblies have answered the call for a General Strike:&lt;/h4&gt;
+Atlanta, GA&lt;br /&gt;Boston, MA&lt;br /&gt;Brooklyn, NY&lt;br /&gt;Burlington, VT&lt;br /&gt;Bushwick, NY&lt;br /&gt;Dayton, OH&lt;br /&gt;Detroit, MI&lt;br /&gt;Durango, CO&lt;br /&gt;Fullerton, CA&lt;br /&gt;Huntington, WV&lt;br /&gt;Irvine, CA&lt;br /&gt;Long Beach, CA&lt;br /&gt;Los Angeles, CA&lt;br /&gt;Melbourne, AU&lt;br /&gt;Miami, FL&lt;br /&gt;Minneapolis/Twin Cities, MN&lt;br /&gt;Mira Monte, CA&lt;br /&gt;Naples, FL&lt;br /&gt;Oakland, CA&lt;br /&gt;Oxnard, CA&lt;br /&gt;Pasadena, CA&lt;br /&gt;Phoenix, AZ&lt;br /&gt;Portland, OR&lt;br /&gt;Providence, RI&lt;br /&gt;Riverside, CA&lt;br /&gt;San Diego, CA&lt;br /&gt;San Fernando Valley, CA&lt;br /&gt;San Jose, CA&lt;br /&gt;Santa Cruz, CA&lt;br /&gt;Seattle, WA&lt;br /&gt;St. Louis, MO&lt;br /&gt;Sydney, AU&lt;br /&gt;Tampa, FL&lt;br /&gt;Venice, CA&lt;br /&gt;Ventura, CA&lt;br /&gt;Washington, D.C.&lt;br /&gt;Williamsburg, NY</field>
+      <field name="published">1</field>
+      <item objectTypeName="resources">
+        <field name="title">Resource Links</field>
+        <field name="slug">resource-links3</field>
+        <field name="published">1</field>
+      </item>
+      <item objectTypeName="Images">
+        <field name="title"></field>
+        <field name="slug">slug0708026001331325042</field>
+        <field name="published">1</field>
+      </item>
+    </item>
+    <item objectTypeName="subPage">
+      <field name="title">You Could Use A Day Off</field>
+      <field name="slug">you-could-use-a-day-off</field>
+      <field name="intro"></field>
+      <field name="blurb">May Day is a holiday during which no traditional work is done, and yet is a day explicitly about work. It's a day for recognizing that we are all workers, whether we're rank-and-file union members, the precariously employed, students, or stay-at-home parents. It's a day to recognize the value of our work, and the power we have to collectively change our working conditions and our world. By simply stepping out of the systems of production that confine and alienate us, we can transform the conditions of society itself. May 1st is a day to explore the possibility of communities based on mutual aid rather than exploitation and consumption. Unlike Christmas, Halloween, Valentine’s Day, and pretty much every major holiday in the U.S., you don't have to buy anything and you don't have to work feverishly in advance to celebrate May Day. &lt;a href="/connect"&gt;You can make it what you want it to be.&lt;/a&gt; In fact, that's really the only thing you have to do to celebrate May Day. It’s a day for and full of human potential. What will you make of it?</field>
+      <field name="published">1</field>
+      <item objectTypeName="Images">
+        <field name="title">Images</field>
+        <field name="slug">images</field>
+        <field name="published">1</field>
+      </item>
+      <item objectTypeName="resources">
+        <field name="title">Resource Links</field>
+        <field name="slug">resource-links4</field>
+        <field name="published">1</field>
+      </item>
+    </item>
+    <item objectTypeName="subPage">
+      <field name="title">Step Up</field>
+      <field name="slug">step-up</field>
+      <field name="intro">Occupy Wall Street organizers have been building up to May Day since January. This process includes documenting our growth; heavy research; organizing escalation actions; building a coalition with labor unions, immigrant justice groups, and community based organizations; creating inspirational media and propaganda; and preparing the logistics for the day of. </field>
+      <field name="blurb">&lt;br /&gt;&lt;h3 style="vertical-spacing:0" vspace="0" align="center"&gt;Step Up&lt;/h3&gt;
+&lt;br /&gt;Text junkies:&lt;br /&gt;For semi-often reminders on May Day organizing meetings, text “@OWSMayDay” to 23559&lt;br /&gt;For action and emergency updates on the day of May Day, text “MayDayAction” to 23559&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;Inbox on Strike:&lt;br /&gt;Send an email to mayday-subscribe@lists.occupy.net to get on the mailing list!&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;Take the Streets!:&lt;br /&gt;Need some training in the streets? Join OWS for SPRING TRAINING 2012!&lt;br /&gt;Every Friday leading up to May 1st, meet at Liberty Square (formerly Zuccotti) for tactical trainings and art fabrication starting at 2:00 PM and a march to Wall Street to disrupt the New York Stock Exchange closing bell at 3:30 PM. Afterwards we will assemble for a potluck, game playing, or discuss upcoming May Day festivities.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;Plug in! Come to one of our meetings:&lt;br /&gt;General Meetings:  Saturdays 1-3p (Judson Church)&lt;br /&gt;-Break out groups discuss and plug new organizers into the work they're doing outside of large, full body meetings.&lt;br /&gt;&lt;br /&gt;Coordinating Spokescouncil:  Wednesdays 6:30-8:30p (33 W14th St)&lt;br /&gt;-Clusters meet in a spokescouncil format for thirty minutes to report back on their efforts towards May Day (asked specifically to describe wants, needs, available resources, and proposals) followed by thirty minutes of unstructured coordination time and forty-five minutes to an hour for proposals.&lt;br /&gt;&lt;br /&gt;Action/Affinity Spokescouncil:  Sundays 7-9p (?)&lt;br /&gt;-This is a space that allows different groups (affinity groups, working groups, organizations, unions, and friends that attend actions together) to coordinate actions for the day of May 1st and support each other through mutual aid and solidarity. This is not a decision making body.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;To learn more about how we organize, &lt;a href="%E2%80%9Dhttp://live.ows-atrium.gotpantheon.com/mayday/node/93%E2%80%9D"&gt;check out our documentation on structure&lt;/a&gt;.&lt;br /&gt;View &lt;a href="%E2%80%9Dhttp://live.ows-atrium.gotpantheon.com/may" day="" calendar”=""&gt;the calendar&lt;/a&gt;, updated with location/time changes and events much more exciting than meetings.</field>
+      <field name="published">0</field>
+      <item objectTypeName="Images">
+        <field name="title">Images</field>
+        <field name="slug">images1</field>
+        <field name="published">1</field>
+      </item>
+      <item objectTypeName="resources">
+        <field name="title">Resource Links</field>
+        <field name="slug">resource-links5</field>
+        <field name="published">1</field>
+      </item>
+    </item>
+    <item objectTypeName="subPage">
+      <field name="title"> Connect</field>
+      <field name="slug">connect</field>
+      <field name="intro"></field>
+      <field name="blurb">&lt;h2 style="margin-top: 0"&gt;Step up!&lt;/h2&gt;
+Occupy Wall Street and the Direct Action working group of the New York City General Assembly has been building for May Day since January. This process includes research and education; building a coalition with labor unions, immigrant justice groups, and community based organizations; organizing escalation actions; creating inspirational media and propaganda; and preparing the logistics for the day of.&lt;br /&gt;&lt;br /&gt;There are many ways you can connect.&lt;br /&gt;&lt;br /&gt;Organizing meetings typically happen on Wednesdays and Saturdays. For specific times, locations, and formats, see &lt;a href="http://live.ows-atrium.gotpantheon.com/mayday/calendar"&gt;our project calendar&lt;/a&gt;
+&lt;br /&gt;&lt;br /&gt;For text-message notices about May Day organizing meetings, text “@OWSMayDay” to 23559&lt;br /&gt;For "day of" action and emergency updates on May 1st, text “@MayDayAction” to 23559&lt;br /&gt;&lt;br /&gt;To join our mailing list, e-mail &lt;a href="mailto:mayday-subscribe@lists.occupy.net?subject=Sign%20me%20up%21"&gt;mayday-subscribe@lists.occupy.net&lt;/a&gt;
+&lt;br /&gt;&lt;br /&gt;To learn more about how we organize, check out &lt;a href="http://live.ows-atrium.gotpantheon.com/mayday/node/93"&gt;our documentation on structure&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;For other organizing resources: &lt;a href="http://live.ows-atrium.gotpantheon.com/mayday/"&gt;Atrium May Day Project Management&lt;/a&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;h2&gt;Take the Streets!&lt;/h2&gt;
+Need some training in the streets? Join OWS for &lt;i&gt;SPRING TRAINING 2012&lt;/i&gt;! Every Friday leading up to May 1st, meet at Liberty Square (formerly called Zuccotti Park) for tactical trainings and art fabrication starting at 2:00 PM — and a march to Wall Street to disrupt the New York Stock Exchange closing bell at 3:30 PM. Afterwards we will assemble for a potluck, game playing, or to discuss upcoming May Day festivities.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;</field>
+      <field name="published">1</field>
+      <item objectTypeName="Images">
+        <field name="title">Images</field>
+        <field name="slug">images2</field>
+        <field name="published">1</field>
+      </item>
+      <item objectTypeName="resources">
+        <field name="title">Resource Links</field>
+        <field name="slug">resource-links6</field>
+        <field name="published">1</field>
+        <item objectTypeName="resourceLink">
+          <field name="title">Atrium May Day Project Management</field>
+          <field name="slug">slug0928458001332710345</field>
+          <field name="linklabel">Atrium May Day Project Management</field>
+          <field name="linkurl">http://live.ows-atrium.gotpantheon.com/mayday/</field>
+          <field name="published">1</field>
+        </item>
+        <item objectTypeName="resourceLink">
+          <field name="title">Calendar</field>
+          <field name="slug">slug0323731001333246067</field>
+          <field name="linklabel">Calendar</field>
+          <field name="linkurl">http://live.ows-atrium.gotpantheon.com/mayday/calendar</field>
+          <field name="published">1</field>
+        </item>
+        <item objectTypeName="resourceLink">
+          <field name="title">Join our Mailing List</field>
+          <field name="slug">slug0359124001333247465</field>
+          <field name="linklabel">Join our Mailing List</field>
+          <field name="linkurl">mailto:mayday-subscribe@lists.occupy.net?subject=Sign me up!</field>
+          <field name="published">1</field>
+        </item>
+      </item>
+    </item>
+  </nodes>
+  <relationships>
+    <lattice name="publicSite"/>
+  </relationships>
+</data>

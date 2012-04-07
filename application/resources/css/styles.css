@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'OSPDIN';
-    src: url('http://www.occupy.net/fonts/osp-din-webfont.eot');
-    src: url('http://www.occupy.net/fonts/osp-din-webfont.eot?#iefix') format('embedded-opentype'),
-         url('http://www.occupy.net/fonts/osp-din-webfont.woff') format('woff'),
-         url('http://www.occupy.net/fonts/osp-din-webfont.ttf') format('truetype'),
-         url('http://www.occupy.net/fonts/osp-din-webfont.svg#OSPDIN') format('svg');
+    src: url('/application/resources/fonts/OSP-DIN-webfont.eot');
+    src: url('/application/resources/fonts/OSP-DIN-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/application/resources/fonts/OSP-DIN-webfont.woff') format('woff'),
+         url('/application/resources/fonts/OSP-DIN-webfont.ttf') format('truetype'),
+         url('/application/resources/fonts/OSP-DIN-webfont.svg#OSPDIN') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -21,8 +21,12 @@
 	width: 100%;
 }
 
-a { color:#3FD8E1; text-decoration:none; }
-a:hover { color:#35B5B5; text-decoration: underline; }
+a, a:hover{
+	color: #fdd04f
+}
+
+#resources a { color:#3FD8E1; text-decoration:none; }
+#resources  a:hover { color:#35B5B5; text-decoration: underline; }
 
 h1, h2, h3, h4, .nav{
 	font-family:OSPDIN, Helvetica, Arial Black, Liberation Sans, sans-serif;
@@ -184,15 +188,15 @@ h2{
 h3{	
 	font-size: 3em;
 	margin-top: 1.5em;
-	line-height: 1.5em;
+	line-height: 1em;
 	text-transform: uppercase;
-	text-align: center;
 }
 
 h4{
 	font-weight: light;
 	letter-spacing: 2px;
-	margin: 1em 0 .5em;
+	margin: 1em 0 .5em 0;
+	line-height: 1;
 }
 
 #sidebarImages li{
