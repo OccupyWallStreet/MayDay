@@ -25,9 +25,8 @@
 	width: 100%;
 }
 
-a, a:hover{
-	color: #fdd04f
-}
+a { color: #fdd04f }
+a:hover { color: #ffe05b }
 
 #resources a { color:#3FD8E1; text-decoration:none; }
 #resources a:hover { color:#35B5B5; text-decoration: underline; }
