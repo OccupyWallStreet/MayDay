@@ -144,6 +144,11 @@ ul.nav li a.active{
 	border-top: 1px #3FD8E1 solid;
 	padding-top:1em;
 }
+.contentNoMargins #resources{
+	margin-top: 1em;
+	border-top: 1px #3FD8E1 solid;
+	padding-top:1em;
+}
 
 #resources li a{
 	display: block;
@@ -154,6 +159,11 @@ ul.nav li a.active{
 }
 
 .content #fundButton {
+	margin-top: 1em;
+	border-top: 1px #3FD8E1 solid;
+	padding-top:1em;
+}
+.contentNoMargins #fundButton {
 	margin-top: 1em;
 	border-top: 1px #3FD8E1 solid;
 	padding-top:1em;

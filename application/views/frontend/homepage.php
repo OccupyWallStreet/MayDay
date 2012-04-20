@@ -18,7 +18,7 @@
 
 	</div>
 
-	<div class="grid_12 clearfix">
+	<div class="grid_12 clearfix contentNoMargins">
 
 		<div id="bodycopy" class="grid_7 clearfix">
 			<h4 class="planningCommitteeHeadline"> <?=$content['main']['planningCommitteeHeadline'];?></h4>
@@ -37,11 +37,11 @@
 			<?endforeach;?>
 			</ul>
 
-		<ul id="fundButton">
-		<li class="resourceLink">
-		<a href="https://www.wepay.com/donations/122288" target="_blank" ><img src="https://www.wepay.com/img/widgets/donate_with_wepay.png" alt="Donate with WePay" /></a>
-		</li>
-		</ul>
+			<ul id="fundButton">
+			<li class="resourceLink">
+			  <a href="https://www.wepay.com/donations/122288" target="_blank" ><img src="https://www.wepay.com/img/widgets/donate_with_wepay.png" alt="Donate" /></a>
+			</li>
+			</ul>
 
 		</div>
 
