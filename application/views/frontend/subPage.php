@@ -28,6 +28,11 @@
 		</ul>
 		<?endif;?>
 
+		<ul id="fundButton">
+		<li class="resourceLink">
+		<a href="https://www.wepay.com/donations/122288" target="_blank" ><img src="https://www.wepay.com/img/widgets/donate_with_wepay.png" alt="Donate with WePay" /></a>
+		</li>
+		</ul>
 	</div>
 
 </div>

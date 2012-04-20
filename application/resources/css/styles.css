@@ -30,7 +30,7 @@ a, a:hover{
 }
 
 #resources a { color:#3FD8E1; text-decoration:none; }
-#resources  a:hover { color:#35B5B5; text-decoration: underline; }
+#resources a:hover { color:#35B5B5; text-decoration: underline; }
 
 h1, h2, h3, h4, .nav{
 	font-family:OSPDIN, Helvetica, Arial Black, Liberation Sans, sans-serif;
@@ -95,10 +95,10 @@ ul.nav{
 
 ul.nav li{
 	float: left;
-	margin: 0 0 0 4em;
+	margin: 0 0 0 2.5em;
 }
 
-ul.nav li:first-child{
+ul.nav li:first-child {
 	margin: 0 0 0 1em;
 }
 
@@ -151,6 +151,17 @@ ul.nav li a.active{
 	background: #000;
 	padding: .25em .5em .125em .5em;
 	border-radius: 6px;
+	margin-top: .125em;
+}
+
+.content #fundButton {
+	margin-top: 1em;
+	border-top: 1px #3FD8E1 solid;
+	padding-top:1em;
+}
+#fundButton li a{
+	display: block;
+	padding: .25em .5em .125em .5em;
 	margin-top: .125em;
 }
 
