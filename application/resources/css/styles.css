@@ -234,6 +234,11 @@ h4{
 	line-height: 1;
 }
 
+.fancyPantsList {
+	list-style-type: disc;
+	padding-left: 14pt;
+}
+
 #sidebarImages li{
 	margin-bottom: 0.5em;
 }
