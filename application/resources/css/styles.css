@@ -40,6 +40,43 @@ h1,h2,h3,h4{
 	line-height: 1;
 }
 
+#tweets{
+	padding: 0;
+}
+
+#tweets ul{
+	height: 500px;
+	overflow: auto;
+	margin: 0;
+	padding: 0;
+	border-bottom: 1px #3ac solid;
+}
+
+#tweets ul,
+ul.fundcategories{
+	margin-top: 1em;
+	border-top: 1px #3ac solid;
+}
+
+
+#tweets li .date{
+	font-size: smaller;
+	color: #3ce;
+	clear: both;
+	display: block;
+}
+
+ul.fundcategories li{
+	border-bottom: 1px #3ac solid;
+	padding: .25em 0;
+}
+
+#tweets li{
+	border-bottom: 1px #3ac solid;
+	padding: 1em .5em;
+}
+
+
 h1{
 	margin-top: .25em;
 	font-size: 5em;
@@ -107,7 +144,7 @@ ul.nav{
 
 ul.nav li{
 	float: left;
-	margin: 0 0 0 2.5em;
+	margin: 0 0 0 1.5em;
 }
 
 ul.nav li:first-child {
@@ -115,7 +152,7 @@ ul.nav li:first-child {
 }
 
 ul.nav li a{
-	font-size: 32px;
+	font-size: 30px;
 	text-transform: uppercase;
 	color: #fff;
 	display: inline-block;
@@ -166,6 +203,7 @@ ul.nav li a.active{
 	padding-top:1em;
 }
 
+a.button,
 #resources li a{
 	display: block;
 	background: #000;
@@ -173,6 +211,8 @@ ul.nav li a.active{
 	border-radius: 6px;
 	margin-top: .125em;
 }
+
+a.button{ margin-top: .5em; text-decoration: none;}
 
 .content #fundButton {
 	margin-top: 1em;
@@ -241,4 +281,9 @@ ul.nav li a.active{
 
 #footer{
 	margin-bottom: 3em;
+}
+
+
+em{
+	color: #3FD8E1;
 }

@@ -5,4 +5,5 @@
 	<li><a href='may-day-2012' <?echo latticeview::withinSubtree('may-day-2012') ? "class='active'" : "";?>>May Day 2012</a></li>
 	<li><a href='connect' <?echo latticeview::withinSubtree('connect') ? "class='active'" : "";?>>Connect</a></li>
 	<li><a href='faq' <?echo latticeview::withinSubtree('faq') ? "class='active'" : "";?> >FAQ</a></li>
+	<li><a href='donate' <?echo latticeview::withinSubtree('donate') ? "class='active'" : "";?> >Donate</a></li>
 </ul>

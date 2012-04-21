@@ -53,6 +53,36 @@
 	    </elements>
 		</objectType>
 
+		<objectType name="donatePage" contentType="document" allowChildSort="true" allowDelete="false" allowTogglePublish="false">
+	    <elements>
+	      <text name="intro" label="Intro Paragraph"/>
+	      <text name="blurb" label="Content"/>
+
+				<list name="contentBlocks" label="Content Blocks">
+					<addableObject objectTypeName="contentBlock" addText="Add a Content Block"/>
+				</list>
+
+				<list name="sidebarContentBlocks" label="Sidebar Blurbs">
+					<addableObject objectTypeName="contentBlock" addText="Add a Sidebar Blurb"/>
+				</list>
+
+	      <text name="tweetsIntro" label="Tweets Intro"/>
+				<!-- feed:https://search.twitter.com/search.rss?q=%23maydaynycneeds -->
+				<list name="donateResources" label="Resource Links">
+					<addableObject objectTypeName="resourceLink" addText="Add a Link"/>
+				</list>
+				
+	    </elements>
+	
+		</objectType>
+
+		<objectType name="contentBlock" contentType="document" allowChildSort="true" allowDelete="true" allowTogglePublish="true">
+	    <elements>
+	      <text name="headline" label="Headline"/>
+	      <text name="content" label="Content"/>
+	    </elements>
+		</objectType>
+
 
 		<objectType name="resourceLink" contentType="document" allowChildSort="true" allowDelete="true" allowTogglePublish="true">
 	    <elements>
