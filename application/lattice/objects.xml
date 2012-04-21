@@ -58,6 +58,7 @@
 	    <elements>
 	      <text name="linklabel" label="Link Label"/>
 	      <text name="linkurl" label="Link URL"/>
+	      <checkbox name="openInNewWindow" label="Link Opens in New Window?"/>
 	    </elements>
 		</objectType>
 

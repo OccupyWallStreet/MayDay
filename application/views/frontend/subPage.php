@@ -23,7 +23,7 @@
 		<h4>Resources</h4>
 		<ul id="resources"  >
 		<?foreach($content['main']['resources'] as $resourcesItem):?>
-			<li class="resourceLink"><a href="<?=$resourcesItem['linkurl'];?>" target="_blank" ><?=$resourcesItem['linklabel'];?></a></li>
+			<li class="resourceLink"><a href="<?=$resourcesItem['linkurl'];?>" <?=($resourcesItem['openInNewWindow'])? "target='_blank'" : "";?>><?=$resourcesItem['linklabel'];?></a></li>
 		<?endforeach;?>
 		</ul>
 		<?endif;?>
