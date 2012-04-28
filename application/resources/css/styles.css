@@ -40,6 +40,40 @@ h1,h2,h3,h4{
 	line-height: 1;
 }
 
+#newsletterbar{
+	background: #000;
+	color: #fff;
+	padding: .5em 0 .5em 0;
+	width: 100%;
+}
+
+#newsletterbar #civi_email_result{
+	display: none;
+	height: 1;
+	padding-top: .5em;
+	margin-top: .5em;
+	text-align: center;
+}
+
+#newsletterbar #civi_email_result span{
+	display: block;
+	border-top: 1px #3ac solid;
+	text-align: center;
+	padding-top: .5em;
+	color: #fff;
+}
+
+#newsletterbar h5{
+	margin: 0 1em 0 16em;
+	padding: 0;
+	float: left;
+}
+
+#newsletterbar #join_newsletter{
+	
+}
+
+
 #tweets{
 	padding: 0;
 }
@@ -271,10 +305,6 @@ a.button{ margin-top: .5em; text-decoration: none;}
 	margin-bottom: 0.5em;
 }
 
-#bodycopy h3{
-	margin-top: .5em;
-}
-
 #bodycopy{
 	max-width: 960px;
 }
@@ -286,4 +316,68 @@ a.button{ margin-top: .5em; text-decoration: none;}
 
 em{
 	color: #3FD8E1;
+}
+
+@media only screen and (max-width: 600px) {
+
+	h3{
+		margin: 0 0 0 0;
+	}
+	
+	h3+br{
+		display: none;
+	}
+	
+	h4+br{
+		display: none;
+	}
+	
+	.fancyPantsList{
+		padding-bottom: 2em;
+		margin-bottom: 2em;
+		border-bottom: 1px #3AC solid;
+	}
+	
+	.content.clearfix{
+		margin: 0 !important;
+		padding: 0;
+	}
+	.grid_7{
+		width: 100% !important;
+	}
+	.grid_4.push_1{
+		clear: both;
+		width: 100%;
+		left: 0;
+		padding: 0 !important;
+		margin: 0 !important;
+	}
+	
+	#subtitleimage{
+		display: none;
+	}
+		
+	ul.nav{
+		padding: .5em 0;
+		margin: 0 0 3em 0;
+		border-top: 1px #6df solid;
+		border-bottom: 1px #6df solid;
+	}
+	
+	ul.nav li{
+		float: left;
+		width: 250px;
+		font-size: 14px;
+		padding: 0 0 0 0;
+		margin: 0 0 0 0;
+	}
+	
+	ul.nav li:first-child {
+		margin: 0 0 0 0;
+	}
+	
+	#tweets ul{
+		height: auto;
+		overflow: visible;
+	}
 }

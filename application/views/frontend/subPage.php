@@ -11,7 +11,7 @@
 		<ul id="sidebarImages" >
 		<?foreach($content['main']['Images'] as $ImagesItem):?>
 		  <li>
-		   <?if(is_object($ImagesItem['image'])):?>
+		   <?if(file_exists($ImagesItem['image']->medium->fullpath)):?>
 		    <img id="image" src="<?=latticeurl::site($ImagesItem['image']->medium->fullpath);?>" width="<?=$ImagesItem['image']->medium->width;?>" height="<?=$ImagesItem['image']->medium->height;?>" alt="<?=$ImagesItem['image']->medium->filename;?>" />
 		   <?endif;?>
 		  </li>

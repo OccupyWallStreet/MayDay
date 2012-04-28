@@ -10,7 +10,7 @@
 		</objectType>
 
 		<objectType name="homepage" contentType="document" allowChildSort="true" allowDelete="false" allowTogglePublish="false">
-			<elements>				
+			<elements>
 				<text name="headline" label="Headline" isMultiline="false"/>
 				<text name="subtitle" label="Subtitle" isMultiline="false"/>
 				<text name="calltoaction" label="Call to Action" isMultiline="true"/>
@@ -26,11 +26,16 @@
 				<text name="organizingStructureHeadline" label="Organizing Structure Headline" isMultiline="false"/>
 				<text name="organizingStructureBodyCopy title" label="Organizing Structure Body Copy" isMultiline="true"/>
 
+				<text name="pageMeta" label="Page description (facebook links and such)" isMultiline="true"/>
+
 				<text name="resourcesheadline" label="Resource Links Headline" isMultiline="false"/>
 				<list name="resources" label="Resource Links">
 					<addableObject objectTypeName="resourceLink" addText="Add a Link"/>
 				</list>
+
 			</elements>
+
+
 		</objectType>
 		
 		<objectType name="siteFooter" contentType="document" allowChildSort="false" allowDelete="false" allowTogglePublish="false">
@@ -44,6 +49,7 @@
 	    <elements>
 	      <text name="intro" label="Intro Paragraph"/>
 	      <text name="blurb" label="Content"/>
+				<text name="pageMeta" label="Page description (facebook links and such)" isMultiline="true"/>
 				<list name="Images" label="Images">
 					<addableObject objectTypeName="pageImage" addText="Add an Image"/>
 				</list>
@@ -57,6 +63,7 @@
 	    <elements>
 	      <text name="intro" label="Intro Paragraph"/>
 	      <text name="blurb" label="Content"/>
+				<text name="pageMeta" label="Page description (facebook links and such)" isMultiline="true"/>
 
 				<list name="contentBlocks" label="Content Blocks">
 					<addableObject objectTypeName="contentBlock" addText="Add a Content Block"/>
