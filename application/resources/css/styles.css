@@ -25,6 +25,35 @@
 	width: 100%;
 }
 
+#dayOfEventList{
+	margin-top: 2em
+}	
+
+#dayOfEventList .event{
+	border-top: 1px #3ac solid;
+	padding-top: .5em;
+	min-height: 300px;
+	margin-bottom: 3em;
+}
+
+#event-4{
+	width: 100% !important;
+	clear: both;
+	min-height: 0 !important;
+	padding-bottom: 1em;
+	border-top: 1px #fff solid;
+	border-bottom: 1px #3ac solid;
+}
+
+p.time{
+	font-size: 15px;
+	margin-bottom: .5em;
+}
+
+h3.headline{
+	margin-top: 0;
+}
+
 a { color: #fc0 }
 a:hover { color: #fe2 }
 
@@ -264,9 +293,16 @@ a.button{ margin-top: .5em; text-decoration: none;}
 	margin-top: .125em;
 }
 
+.homeIntro{
+	font-size: 21px;
+	line-height: 1.25;
+}
 .intro{
 	font-weight: normal;
 	font-size: 15px;
+}
+.secondaryIntro{
+	margin-top: 2em;
 }
 /* absolutely positioned elements, inside a relatively positioned container are offset from the top left corner of the container. */
 
@@ -318,7 +354,7 @@ em{
 	color: #3FD8E1;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 959px) {
 
 	h3{
 		margin: 0 0 0 0;
@@ -366,7 +402,7 @@ em{
 	
 	ul.nav li{
 		float: left;
-		width: 250px;
+		width: 30%;
 		font-size: 14px;
 		padding: 0 0 0 0;
 		margin: 0 0 0 0;
@@ -380,4 +416,21 @@ em{
 		height: auto;
 		overflow: visible;
 	}
+
+	#dayOfEventList li.event{
+		width: 48%;
+	}
+}
+
+
+@media only screen and (max-width: 800px) {
+
+ul.nav li{
+	float: left;
+	width: 48%;
+	font-size: 14px;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+}
+
 }

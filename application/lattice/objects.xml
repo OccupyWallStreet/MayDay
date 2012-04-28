@@ -35,9 +35,27 @@
 
 			</elements>
 
-
 		</objectType>
-		
+
+		<objectType name="homepageDayOf" contentType="document" allowChildSort="true" allowDelete="true" allowTogglePublish="false">
+			<elements>
+				<text name="intro" label="Intro" isMultiline="true"/>
+				<text name="secondaryIntro" label="Intro" isMultiline="true"/>
+				<text name="pageMeta" label="Page description (facebook links and such)" isMultiline="true"/>
+				<list name="dayOfEventList" label="Event List">
+					<addableObject objectTypeName="event" addText="Add an Event" />
+				</list>
+				<list name="dayOfContentBlocks" label="Content Blocks">
+					<addableObject objectTypeName="contentBlock" addText="Add a Content Block"/>
+				</list>
+	      <text name="tweetsIntro" label="Tweets Intro"/>
+				<text name="resourcesheadline" label="Resource Links Headline" isMultiline="false"/>
+				<list name="dayOfResources" label="Resource Links">
+					<addableObject objectTypeName="resourceLink" addText="Add a Link"/>
+				</list>
+			</elements>
+		</objectType>
+					
 		<objectType name="siteFooter" contentType="document" allowChildSort="false" allowDelete="false" allowTogglePublish="false">
 		    <elements>
 		      <text name="footerContent" label="Footer Content" isMultiline="true" />
@@ -90,7 +108,18 @@
 	    </elements>
 		</objectType>
 
-
+		<objectType name="event" contentType="document" allowChildSort="true" allowDelete="true" allowTogglePublish="true">
+	    <elements>
+	      <text name="headline" label="Headline"/>
+	      <text name="timeStart" label="Start Time"/>
+	      <text name="timeEnd" label="End Time"/>
+	      <text name="location" label="Location"/>
+	      <link name="eventLink" label="Links to"/>
+	      <text name="blurb" label="blurb"/>
+	      <text name="description" label="Description"/>
+	    </elements>
+		</objectType>
+		
 		<objectType name="resourceLink" contentType="document" allowChildSort="true" allowDelete="true" allowTogglePublish="true">
 	    <elements>
 	      <text name="linklabel" label="Link Label"/>

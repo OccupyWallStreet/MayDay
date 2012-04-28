@@ -16,10 +16,6 @@
 		<title>May Day 2012 | <?=latticeview::initialObject()->title;?></title>
 		<?=$stylesheet;?>
 		<?=$javascript;?>
-		
-		
-		<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
-
 		<script type='text/javascript'>
 		    // Even if the post succeeds, jQuery thinks there was an error, so we use 'complete' instead of 'success'
 		    // Either CiviCRM is doing something weird, or this is a function of our aliasing setup

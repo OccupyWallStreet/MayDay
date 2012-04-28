@@ -5,8 +5,8 @@
 		'application/resources/css/styles.css'
 	);
 	$config['resources']['js'] = array(
-		'lattice/lattice/resources/thirdparty/mootools/mootools.js',
-		'application/resources/js/imgSizer.js'
+		'https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js',
+		'application/resources/js/site.js'
 	);
 	return $config;
 ?>
